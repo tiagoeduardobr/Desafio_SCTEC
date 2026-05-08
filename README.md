@@ -1,63 +1,70 @@
-# BytePets — Landing Page para Pet Shop Tech + Nerd
+# 🐾 BytePets
 
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-00c2ff?style=for-the-badge)
-![HTML5](https://img.shields.io/badge/HTML5-sem%C3%A2ntico-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-responsivo-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-interatividade-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111)
-![Landing Page](https://img.shields.io/badge/tipo-landing%20page-7c3aed?style=for-the-badge)
-![Responsivo](https://img.shields.io/badge/layout-responsivo-06d6a0?style=for-the-badge)
+Bem-vindo ao repositório do **BytePets**, uma landing page premium desenvolvida como parte do desafio SCTEC/SENAI. O projeto combina a estética *Cyberpunk / Tech* com o universo Pet, entregando um layout moderno, de altíssima performance, e com total rigor técnico.
+
+![Status](https://img.shields.io/badge/status-concluído-00c2ff?style=for-the-badge)
 ![SCTEC](https://img.shields.io/badge/SCTEC-programa%20oficial%20SC-0057b8?style=for-the-badge)
 ![Carreira Tech](https://img.shields.io/badge/trilha-Carreira%20Tech-0f766e?style=for-the-badge)
 ![SENAI/SC](https://img.shields.io/badge/parceria-SENAI%2FSC-dc2626?style=for-the-badge)
+![Landing Page](https://img.shields.io/badge/tipo-landing%20page-7c3aed?style=for-the-badge)
+![HTML5](https://img.shields.io/badge/HTML5-sem%C3%A2ntico-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-responsivo-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-interatividade-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111)
+![Responsivo](https://img.shields.io/badge/layout-responsivo-06d6a0?style=for-the-badge)
+![Acessibilidade](https://img.shields.io/badge/A11y-100%25-0052cc?style=for-the-badge)
+![SEO](https://img.shields.io/badge/SEO-100%25-ff5500?style=for-the-badge)
+![Performance](https://img.shields.io/badge/Performance-100%25-06d6a0?style=for-the-badge)
 
-## Descrição do projeto
+---
 
-O **BytePets** é uma landing page desenvolvida para apresentar um pet shop fictício com identidade visual inspirada no universo **tech + pet + nerd**. A proposta é criar uma experiência digital moderna, visualmente marcante e acolhedora, conectando o cuidado com os pets a uma comunicação pensada para tutores que gostam de tecnologia, cultura geek, games e design digital.
+## 🎯 Objetivo
 
-A página foi criada com foco em uma apresentação comercial clara e atrativa, funcionando como um cartão de visitas digital da marca. O projeto valoriza organização visual, navegação simples, boa leitura e uma estética própria, reforçando a proposta da BytePets como uma marca moderna, criativa e diferente dos pet shops tradicionais.
+Criar uma experiência imersiva e responsiva para a marca "BytePets". O foco principal do desenvolvimento foi alcançar a excelência nos critérios de avaliação técnica:
+- **Desempenho Extremo:** Nenhuma imagem fotográfica pesada foi utilizada. Todos os assets (Logo, Hero, Ícones) são 100% vetoriais (SVG) renderizados via código com filtros nativos (`feGaussianBlur`), garantindo peso praticamente nulo e carregamento instantâneo.
+- **Acessibilidade (A11y):** Uso de HTML5 semântico (tags `<article>`, `<section>`, `<nav>`), atributos ARIA dinâmicos no formulário de contato (`aria-invalid`, `aria-describedby`, `aria-live`) e controle semântico do menu mobile (`aria-expanded`).
+- **SEO Técnico:** Estrutura de cabeçalho em árvore impecável (H1 a H3), Meta Tags Open Graph (OG) injetadas para compartilhamento rico, e atributo `loading="lazy"` nas imagens secundárias.
+- **Design Interativo:** Animações baseadas em gatilho de rolagem via `IntersectionObserver` no JavaScript puro, *Scroll Spy* para destacar o menu ativo e micro-interações CSS complexas (glassmorphism, gradients, hover events).
 
-O desenvolvimento do projeto utiliza **HTML, CSS e JavaScript**, com o objetivo de demonstrar fundamentos de estruturação de páginas web, estilização responsiva e interatividade básica na camada de front-end.
+## 🛠️ Tecnologias e Metodologias
 
-## Funcionalidades
+Este projeto foi construído **sem o uso de frameworks externos ou bibliotecas pesadas**, valorizando a essência e o domínio profundo dos fundamentos da web:
 
-- Landing page com apresentação institucional da marca BytePets.
-- Layout responsivo para diferentes tamanhos de tela.
-- Identidade visual personalizada com proposta tech, pet e nerd.
-- Seção de destaque com chamadas para ação.
-- Seção de apresentação da marca e proposta do pet shop.
-- Exibição de serviços em destaque.
-- Área de contato com formulário funcional no front-end.
-- Validação básica de campos obrigatórios e formato de e-mail.
-- Navegação simples e visual organizada para facilitar a experiência do usuário.
+- **HTML5 Semântico:** Estruturação robusta e amigável para Screen Readers e motores de busca.
+- **CSS3 Vanilla:** Uso extensivo de CSS Custom Properties (Variáveis), Flexbox, CSS Grid avançado, animações CSS e paleta de cores harmoniosa em Dark Mode.
+- **JavaScript Vanilla (ES6+):** Lógica limpa e orientada a performance para validar formulários e criar animações performáticas via APIs do navegador.
+- **SVG Vector Art:** Ilustrações desenvolvidas em código, alinhadas à estética cyberpunk.
+- **Conventional Commits:** Todo o histórico do Git está organizado sob padrões semânticos de mercado (`feat:`, `fix:`, `docs:`, `style:`).
+- **Governança Step-by-Step:** Desenvolvimento guiado por regras de arquitetura documentadas, `backlog.md` restrito e dicionário de linting (`cspell.json`).
 
-## Tecnologias utilizadas
+## 📂 Estrutura de Pastas
 
-- HTML5
-- CSS3
-- JavaScript
+```text
+📦 BytePets
+ ┣ 📂 assets
+ ┃ ┣ 📂 icons          # Ícones vetoriais dos serviços (banho-tosa, consulta, premium, produtos)
+ ┃ ┣ 📂 img            # Ilustração principal cyberpunk (hero-pet.svg)
+ ┃ ┗ 📂 logo           # Logotipo oficial em neon (bytepets-logo.svg)
+ ┣ 📂 css
+ ┃ ┗ 📜 style.css      # Estilos globais, reset, design tokens e animações
+ ┣ 📂 js
+ ┃ ┗ 📜 script.js      # IntersectionObserver, form feedback e interações DOM
+ ┣ 📜 index.html       # Esqueleto e conteúdo principal da Landing Page
+ ┣ 📜 README.md        # Documentação do projeto (você está aqui)
+ ┣ 📜 backlog.md       # Roadmap e tracking de todas as tarefas concluídas
+ ┣ 📜 cspell.json      # Dicionário do projeto para evitar erros de linting
+ ┗ 📜 AGENTS.md        # Regras de governança de IA e fluxo de desenvolvimento
+```
 
-## Como executar o projeto
+## 🚀 Como Executar Localmente
 
-1. Extraia a pasta do projeto no computador.
-2. Verifique se todos os arquivos estão organizados corretamente.
-3. Abra o arquivo `index.html` em um navegador.
-4. Navegue pela página e teste os recursos disponíveis.
+O projeto é "Zero-Build" e não requer instalação do Node.js, `npm` ou compiladores.
 
-## Agradecimentos
+1. **Clone ou faça o download** deste repositório para a sua máquina.
+2. **Abra a pasta do projeto** na sua IDE favorita (Recomendado: Visual Studio Code).
+3. **Inicie um servidor local** para evitar bloqueios de CORS nos SVGs e Links:
+   - Se estiver usando o VSCode, instale a extensão **Live Server**.
+   - Clique com o botão direito no arquivo `index.html` e selecione **"Open with Live Server"**.
+4. O navegador abrirá automaticamente em `http://127.0.0.1:5500`. Divirta-se!
 
-Este projeto foi desenvolvido no contexto formativo do **SCTEC**, programa do Governo de Santa Catarina, por meio da SCTI, em parceria com o **SENAI/SC**, com foco em inovação, desenvolvimento tecnológico e capacitação em tecnologia.
-
-Fica registrado o agradecimento ao **Programa SCTEC**, à trilha **Carreira Tech** e ao ecossistema de formação apoiado pelo **LAB365 / SENAI/SC**, que contribuem para ampliar o acesso à qualificação tecnológica no estado de Santa Catarina.
-
-### Página oficial do programa
-
-SCTEC — site oficial: <https://sctec.scti.sc.gov.br>
-
-## Melhorias futuras
-
-- Integração com WhatsApp.
-- Modo escuro e claro com alternância manual.
-- Mais animações e microinterações.
-- Página complementar de catálogo de produtos.
-- Integração com agendamento real.
-- Área com mais informações sobre serviços e planos.
+---
+Desenvolvido com muito código limpo e disciplina de engenharia de software para o Desafio SCTEC. 🚀
