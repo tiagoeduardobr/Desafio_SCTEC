@@ -1,21 +1,68 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
-  <title id="title">BytePets logo</title>
-  <desc id="desc">Pata dentro de um microchip, representando tecnologia e pets.</desc>
+  <title id="title">BytePets Logo Cyber</title>
+  <desc id="desc">Logotipo cyberpunk da BytePets: uma pata digital formada por circuitos de neon e componentes tech.</desc>
   <defs>
-    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#00d4ff"/>
-      <stop offset="100%" stop-color="#8b5cf6"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08111f"/>
+      <stop offset="100%" stop-color="#13233d"/>
     </linearGradient>
+    <linearGradient id="neonCyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#00ffff"/>
+    </linearGradient>
+    <linearGradient id="neonPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#d946ef"/>
+    </linearGradient>
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <rect x="24" y="24" width="208" height="208" rx="44" fill="#0d1727" stroke="url(#g)" stroke-width="8"/>
-  <rect x="70" y="70" width="116" height="116" rx="24" fill="none" stroke="url(#g)" stroke-width="8"/>
-  <rect x="112" y="44" width="32" height="20" rx="8" fill="url(#g)"/>
-  <rect x="112" y="192" width="32" height="20" rx="8" fill="url(#g)"/>
-  <rect x="44" y="112" width="20" height="32" rx="8" fill="url(#g)"/>
-  <rect x="192" y="112" width="20" height="32" rx="8" fill="url(#g)"/>
-  <circle cx="128" cy="120" r="20" fill="url(#g)"/>
-  <circle cx="94" cy="94" r="11" fill="url(#g)"/>
-  <circle cx="162" cy="94" r="11" fill="url(#g)"/>
-  <circle cx="94" cy="154" r="11" fill="url(#g)"/>
-  <circle cx="162" cy="154" r="11" fill="url(#g)"/>
+
+  <!-- Background Base -->
+  <rect width="256" height="256" rx="56" fill="url(#bg)"/>
+  <rect width="256" height="256" rx="56" fill="none" stroke="url(#neonPurple)" stroke-width="2" opacity="0.3"/>
+  
+  <!-- Outer Tech Ring -->
+  <circle cx="128" cy="128" r="90" fill="none" stroke="url(#neonCyan)" stroke-width="2" stroke-dasharray="10 16" opacity="0.4"/>
+  <circle cx="128" cy="128" r="75" fill="none" stroke="rgba(139, 92, 246, 0.2)" stroke-width="8"/>
+
+  <!-- Circuit Lines -->
+  <g stroke="rgba(0, 212, 255, 0.4)" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M 60 180 L 90 150 M 196 180 L 166 150 M 128 210 L 128 170" />
+    <path d="M 60 80 L 80 100 M 196 80 L 176 100" />
+  </g>
+
+  <!-- Paw Print - Central Pad -->
+  <path d="M 128 170 C 90 170 70 140 90 110 C 110 80 146 80 166 110 C 186 140 166 170 128 170 Z" fill="#0f1b2e" stroke="url(#neonPurple)" stroke-width="6" stroke-linejoin="round" filter="url(#neonGlow)"/>
+  
+  <!-- Central Pad Inner Details (Microchip style) -->
+  <rect x="110" y="110" width="36" height="36" rx="8" fill="none" stroke="url(#neonCyan)" stroke-width="3" filter="url(#neonGlow)"/>
+  <line x1="128" y1="110" x2="128" y2="146" stroke="url(#neonCyan)" stroke-width="2" filter="url(#neonGlow)"/>
+  <line x1="110" y1="128" x2="146" y2="128" stroke="url(#neonCyan)" stroke-width="2" filter="url(#neonGlow)"/>
+
+  <!-- Toes (Nodes) -->
+  <g fill="#0f1b2e" stroke="url(#neonCyan)" stroke-width="5" filter="url(#neonGlow)">
+    <circle cx="70" cy="90" r="14"/>
+    <circle cx="106" cy="60" r="16"/>
+    <circle cx="150" cy="60" r="16"/>
+    <circle cx="186" cy="90" r="14"/>
+  </g>
+
+  <!-- Toes Inner Dots -->
+  <g fill="url(#neonPurple)" filter="url(#neonGlow)">
+    <circle cx="70" cy="90" r="4"/>
+    <circle cx="106" cy="60" r="5"/>
+    <circle cx="150" cy="60" r="5"/>
+    <circle cx="186" cy="90" r="4"/>
+  </g>
+
+  <!-- Decorative Sparkles -->
+  <circle cx="45" cy="45" r="3" fill="#00d4ff" filter="url(#neonGlow)"/>
+  <circle cx="210" cy="210" r="3" fill="#8b5cf6" filter="url(#neonGlow)"/>
+  <circle cx="210" cy="45" r="3" fill="#00ffff" filter="url(#neonGlow)"/>
 </svg>
