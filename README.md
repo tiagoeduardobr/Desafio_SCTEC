@@ -17,6 +17,11 @@ Bem-vindo ao repositório do **BytePets**, uma landing page premium desenvolvida
 
 ---
 
+## 🌐 Links do Projeto
+
+- **Acesso Online (GitHub Pages):** [tiagoeduardobr.github.io/Desafio_SCTEC](https://tiagoeduardobr.github.io/Desafio_SCTEC/)
+- **Repositório do Código:** [github.com/tiagoeduardobr/Desafio_SCTEC](https://github.com/tiagoeduardobr/Desafio_SCTEC)
+
 ## 🎯 Objetivo
 
 Criar uma experiência imersiva e responsiva para a marca "BytePets". O foco principal do desenvolvimento foi alcançar a excelência nos critérios de avaliação técnica:
