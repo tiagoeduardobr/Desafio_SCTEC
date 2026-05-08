@@ -556,6 +556,11 @@ textarea {
   min-height: 120px;
 }
 
+.form-group option {
+  background: var(--surface);
+  color: var(--text);
+}
+
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
