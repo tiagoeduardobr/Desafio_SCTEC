@@ -591,9 +591,9 @@ bytepets/
 
 - [x] Criar ou selecionar logo.
 - [x] Criar ou selecionar imagem principal do hero e possíveis imagens de apoio.
-- [ ] Converter imagens fotográficas para formato moderno (WebP) visando extrema otimização e redução drástica do tamanho do `.zip`.
+- [x] Converter imagens fotográficas para formato moderno (WebP) visando extrema otimização e redução drástica do tamanho do `.zip` (Adotamos 100% SVG vetorial com filtros, peso praticamente nulo!).
 - [x] Criar ou selecionar ícones dos serviços.
-- [ ] Aplicar `loading="lazy"` nas imagens que não estão no hero.
+- [x] Aplicar `loading="lazy"` nas imagens que não estão no hero.
 
 **Estratégia:**
 
