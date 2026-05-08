@@ -76,6 +76,11 @@ O projeto é "Zero-Build" e não requer instalação do Node.js, `npm` ou compil
 
 Um agradecimento especial ao programa **SCTEC** e ao **SENAI/SC** por fomentarem a inovação e a educação tecnológica no estado de Santa Catarina. A trilha **Carreira Tech** proporcionou uma jornada de aprendizado incrível, incentivando a criação de projetos com foco real em performance, acessibilidade e design de ponta. O *BytePets* é o reflexo direto da excelência exigida e inspirada por este desafio.
 
+## 👨‍💻 Autor
+
+**Tiago Eduardo Zimmermann**
+- GitHub: [@tiagoeduardobr](https://github.com/tiagoeduardobr)
+
 ---
 
 Desenvolvido com muito código limpo e disciplina de engenharia de software para o Desafio SCTEC. 🚀
