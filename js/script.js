@@ -39,6 +39,8 @@ if (menuToggle && menu) {
 const clearErrors = (fields) => {
   fields.forEach((field) => {
     field.classList.remove('is-invalid');
+    field.removeAttribute('aria-invalid');
+    field.removeAttribute('aria-describedby');
     const error = field.parentElement.querySelector('.form-error');
     if (error) error.textContent = '';
   });
@@ -46,8 +48,12 @@ const clearErrors = (fields) => {
 
 const setError = (field, message) => {
   field.classList.add('is-invalid');
+  field.setAttribute('aria-invalid', 'true');
   const error = field.parentElement.querySelector('.form-error');
-  if (error) error.textContent = message;
+  if (error) {
+    error.textContent = message;
+    if (error.id) field.setAttribute('aria-describedby', error.id);
+  }
 };
 
 if (form) {
