@@ -1,15 +1,38 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="t d">
   <title id="t">Produtos e acessórios</title>
-  <desc id="d">Ícone de caixa e acessórios para pets.</desc>
+  <desc id="d">Ícone de produtos cyberpunk.</desc>
   <defs>
-    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0%" stop-color="#00d4ff"/>
-      <stop offset="100%" stop-color="#8b5cf6"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08111f"/>
+      <stop offset="100%" stop-color="#13233d"/>
     </linearGradient>
+    <linearGradient id="nC" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#00ffff"/>
+    </linearGradient>
+    <linearGradient id="nP" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#d946ef"/>
+    </linearGradient>
+    <filter id="nG" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect x="14" y="14" width="100" height="100" rx="28" fill="#0d1727" stroke="url(#g)" stroke-width="6"/>
-  <path d="M38 50h52l-6 34H44L38 50Z" fill="none" stroke="url(#g)" stroke-width="6" stroke-linejoin="round"/>
-  <path d="M52 50l6-10h12l6 10" fill="none" stroke="url(#g)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="52" cy="68" r="5" fill="url(#g)"/>
-  <circle cx="76" cy="68" r="5" fill="url(#g)"/>
+  <rect width="128" height="128" rx="28" fill="url(#bg)"/>
+  <rect width="128" height="128" rx="28" fill="none" stroke="url(#nP)" stroke-width="1" opacity="0.3"/>
+  <circle cx="64" cy="64" r="40" fill="none" stroke="rgba(0,212,255,0.15)" stroke-width="2" stroke-dasharray="4 6"/>
+
+  <!-- Neon Cube / Package -->
+  <g fill="none" stroke="url(#nC)" stroke-width="4" stroke-linejoin="round" filter="url(#nG)">
+    <polygon points="64,30 96,48 96,84 64,102 32,84 32,48" fill="#0c1524"/>
+    <path d="M 32 48 L 64 66 L 96 48"/>
+    <path d="M 64 66 L 64 102"/>
+  </g>
+  
+  <!-- Glowing Data lines on the box -->
+  <path d="M 40 56 L 60 67 M 88 56 L 68 67 M 40 80 L 60 91" stroke="url(#nP)" stroke-width="3" stroke-linecap="round" filter="url(#nG)"/>
+  
+  <!-- Hovering Dot -->
+  <circle cx="64" cy="20" r="4" fill="url(#nP)" filter="url(#nG)"/>
 </svg>
