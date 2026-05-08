@@ -486,7 +486,7 @@ bytepets/
 - [x] Aplicar comportamento acessível do formulário.
 - [x] Implementar micro-interações CSS/JS (ex: botões dinâmicos, cards subindo levemente em hover com `transform: translateY`).
 - [x] Exibir retorno visual dinâmico após envio do formulário.
-- [ ] Animar a exibição de indicadores e destacar item ativo no menu durante scroll.
+- [x] Animar a exibição de indicadores e destacar item ativo no menu durante scroll.
 
 **Estratégia:**
 
