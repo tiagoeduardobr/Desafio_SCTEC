@@ -19,7 +19,9 @@
     "subheadline",
     "glassmorphism",
     "docstrings",
-    "microinterações"
+    "microinterações",
+    "textareas",
+    "servico"
   ],
   "ignorePaths": [
     "node_modules/**",

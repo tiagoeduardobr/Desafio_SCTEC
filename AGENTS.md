@@ -9,8 +9,10 @@ Este documento define as diretrizes de desenvolvimento para o projeto BytePets, 
 
 ## 2. Fluxo de Trabalho (Git e Versionamento)
 
+- **Passo a Passo (Foco Único):** É estritamente proibido avançar para o próximo TODO ou agrupar tarefas sem antes validar, testar e finalizar a etapa atual. O desenvolvimento deve ocorrer sempre **um TODO por vez**, etapa por etapa.
 - **Branches por TODO:** O desenvolvimento será guiado pelo `backlog.md`. Para cada TODO iniciado, deve ser criada uma nova branch dedicada (exemplo: `feature/todo-01-branding` ou `feat/todo-04-html-structure`).
 - **Commits Semânticos:** Todos os commits devem seguir o padrão de *Conventional Commits* e as mensagens devem ser escritas obrigatoriamente em **Inglês** (ex: `docs: add initial documentation`, `feat: add hero section`, `style: update color tokens`).
+- **Atualização do Backlog:** Sempre que um TODO for finalizado, seu respectivo checkbox no `backlog.md` deve ser marcado como concluído (`- [x]`) e essa atualização da documentação deve ser versionada em um commit separado (ex: `docs: mark TODO 01 as completed`).
 - **Merge e Push:** Ao finalizar e validar um TODO, a branch correspondente deve ser mesclada (merged) na branch principal e enviada (push) para o repositório remoto.
 
 ## 3. Padrões de Qualidade e Boas Práticas (SCTEC)
