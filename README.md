@@ -78,7 +78,8 @@ Um agradecimento especial ao programa **SCTEC** e ao **SENAI/SC** por fomentarem
 
 ## 👨‍💻 Autor
 
-**Tiago Eduardo Zimmermann**
+Desenvolvido por **Tiago Eduardo Zimmermann**.
+
 - GitHub: [@tiagoeduardobr](https://github.com/tiagoeduardobr)
 
 ---
