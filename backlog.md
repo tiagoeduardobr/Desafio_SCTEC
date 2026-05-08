@@ -646,10 +646,9 @@ bytepets/
 - [ ] CSS aplicado corretamente.
 - [ ] JavaScript funcionando sem erros.
 - [ ] Imagens aparecendo corretamente.
-- [ ] Formulário validando e retornando feedback.
-- [ ] Layout responsivo em telas pequenas e grandes.
-- [ ] Sem links quebrados.
-- [ ] Sem erros visíveis no console.
+- [x] Simular envio de formulário para atestar os tratamentos de erro (ex: `required`).
+- [x] Inspecionar visualmente o redimensionamento em três telas (Mobile, Tablet, Desktop).
+- [x] Checar no Lighthouse (Performance, Acessibilidade, Melhores Práticas, SEO).
 
 **Checklist do edital:**
 
