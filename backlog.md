@@ -103,12 +103,12 @@ bytepets/
 
 **Itens a executar:**
 
-- Confirmar nome oficial da marca: BytePets.
-- Definir slogan principal.
-- Criar uma frase de posicionamento da marca.
-- Definir paleta principal e secundária.
-- Definir tipografia para títulos e corpo.
-- Definir estilo visual dos ícones e possíveis ilustrações.
+- [x] Confirmar nome oficial da marca: BytePets.
+- [x] Definir slogan principal.
+- [x] Criar uma frase de posicionamento da marca.
+- [x] Definir paleta principal e secundária.
+- [x] Definir tipografia para títulos e corpo.
+- [x] Definir estilo visual dos ícones e possíveis ilustrações.
 
 **Planejamento visual:**
 
@@ -129,11 +129,11 @@ bytepets/
 
 **Itens a executar:**
 
-- Organizar arquitetura do arquivo `style.css` (1. Reset, 2. Variáveis/Tokens, 3. Tipografia/Base, 4. Layout/Componentes, 5. Utilitários).
-- Criar variáveis CSS para cores principais, fundos, textos e destaques.
-- Definir escala de espaçamento e raio de borda padrão para cards e botões.
-- Criar estados visuais para teclado (`:focus-visible`) garantindo acessibilidade (A11y).
-- Definir sombras dinâmicas, estados de hover e planejar micro-interações (ex: "Glassmorphism", gradientes suaves) para visual "Premium".
+- [x] Organizar arquitetura do arquivo `style.css` (1. Reset, 2. Variáveis/Tokens, 3. Tipografia/Base, 4. Layout/Componentes, 5. Utilitários).
+- [x] Criar variáveis CSS para cores principais, fundos, textos e destaques.
+- [x] Definir escala de espaçamento e raio de borda padrão para cards e botões.
+- [x] Criar estados visuais para teclado (`:focus-visible`) garantindo acessibilidade (A11y).
+- [x] Definir sombras dinâmicas, estados de hover e planejar micro-interações (ex: "Glassmorphism", gradientes suaves) para visual "Premium".
 
 **Planejamento obrigatório desta conversa:**
 
@@ -184,10 +184,10 @@ bytepets/
 
 **Itens a executar:**
 
-- Definir IDs para navegação por âncora.
-- Ordenar o conteúdo pensando em conversão.
-- Garantir que as seções obrigatórias estejam claramente visíveis.
-- Evitar excesso de seções para manter entrega rápida.
+- [x] Definir IDs para navegação por âncora.
+- [x] Ordenar o conteúdo pensando em conversão.
+- [x] Garantir que as seções obrigatórias estejam claramente visíveis.
+- [x] Evitar excesso de seções para manter entrega rápida.
 
 **Estratégia:**
 
@@ -207,13 +207,13 @@ bytepets/
 
 **Itens a executar:**
 
-- Estruturar o `<head>` com foco em SEO: `<title>` descritivo, `<meta name="description">` focado em conversão e tags Open Graph.
-- Criar `header` com logo, navegação e CTA.
-- Criar `main` contendo todas as seções da página.
-- Criar `section` para hero, sobre, indicadores, serviços, diferenciais e contato.
-- Criar `footer` com fechamento institucional.
-- Criar `form` com labels e campos acessíveis.
-- Garantir hierarquia correta de headings com um único `h1`.
+- [x] Estruturar o `<head>` com foco em SEO: `<title>` descritivo, `<meta name="description">` focado em conversão e tags Open Graph.
+- [x] Criar `header` com logo, navegação e CTA.
+- [x] Criar `main` contendo todas as seções da página.
+- [x] Criar `section` para hero, sobre, indicadores, serviços, diferenciais e contato.
+- [x] Criar `footer` com fechamento institucional.
+- [x] Criar `form` com labels e campos acessíveis.
+- [x] Garantir hierarquia correta de headings com um único `h1`.
 
 **Boas práticas obrigatórias:**
 
@@ -234,10 +234,10 @@ bytepets/
 
 **Itens a executar:**
 
-- Inserir logotipo ou wordmark BytePets.
-- Adicionar links internos para as principais seções.
-- Criar CTA no topo.
-- Implementar botão hambúrguer para mobile.
+- [x] Inserir logotipo ou wordmark BytePets.
+- [x] Adicionar links internos para as principais seções.
+- [x] Criar CTA no topo.
+- [x] Implementar botão hambúrguer para mobile.
 
 **Planejamento visual:**
 
@@ -264,11 +264,11 @@ bytepets/
 
 **Itens a executar:**
 
-- Escrever headline forte e específica.
-- Criar subheadline curta com proposta de valor.
-- Inserir CTA principal e CTA secundário.
-- Adicionar imagem, ilustração ou composição visual de pet em destaque.
-- Criar elementos sobrepostos usando posicionamento CSS.
+- [x] Escrever headline forte e específica.
+- [x] Criar subheadline curta com proposta de valor.
+- [x] Inserir CTA principal e CTA secundário.
+- [x] Adicionar imagem, ilustração ou composição visual de pet em destaque.
+- [x] Criar elementos sobrepostos usando posicionamento CSS.
 
 **Planejamento visual obrigatório:**
 
@@ -299,10 +299,10 @@ bytepets/
 
 **Itens a executar:**
 
-- Escrever texto institucional curto sobre a BytePets.
-- Apresentar proposta, diferencial e estilo da marca.
-- Inserir imagem ou bloco visual de apoio.
-- Organizar layout com Grid ou Flexbox.
+- [x] Escrever texto institucional curto sobre a BytePets.
+- [x] Apresentar proposta, diferencial e estilo da marca.
+- [x] Inserir imagem ou bloco visual de apoio.
+- [x] Organizar layout com Grid ou Flexbox.
 
 **Planejamento visual e estrutural:**
 
@@ -328,10 +328,10 @@ bytepets/
 
 **Itens a executar:**
 
-- Criar bloco com 3 a 4 indicadores.
-- Destacar números em tamanho maior.
-- Adicionar pequenos rótulos explicativos.
-- Ajustar visual para leitura rápida.
+- [x] Criar bloco com 3 a 4 indicadores.
+- [x] Destacar números em tamanho maior.
+- [x] Adicionar pequenos rótulos explicativos.
+- [x] Ajustar visual para leitura rápida.
 
 **Indicadores sugeridos:**
 
@@ -358,11 +358,11 @@ bytepets/
 
 **Itens a executar:**
 
-- Selecionar entre 4 e 6 serviços principais.
-- Criar cards reutilizáveis.
-- Inserir título, descrição curta e ícone ou imagem em cada card.
-- Definir uma área visual com `aspect-ratio` para padronização.
-- Garantir consistência entre todos os cards.
+- [x] Selecionar entre 4 e 6 serviços principais.
+- [x] Criar cards reutilizáveis.
+- [x] Inserir título, descrição curta e ícone ou imagem em cada card.
+- [x] Definir uma área visual com `aspect-ratio` para padronização.
+- [x] Garantir consistência entre todos os cards.
 
 **Serviços sugeridos:**
 
@@ -395,9 +395,9 @@ bytepets/
 
 **Itens a executar:**
 
-- Listar 3 a 5 diferenciais da BytePets.
-- Organizar o conteúdo em cards menores ou lista visual.
-- Mostrar vantagens competitivas da marca.
+- [x] Listar 3 a 5 diferenciais da BytePets.
+- [x] Organizar o conteúdo em cards menores ou lista visual.
+- [x] Mostrar vantagens competitivas da marca.
 
 **Diferenciais sugeridos:**
 
@@ -419,10 +419,10 @@ bytepets/
 
 **Itens a executar:**
 
-- Criar formulário com campos essenciais.
-- Adicionar bloco lateral ou complementar com informações de contato.
-- Criar CTA final claro.
-- Preparar feedback visual de envio.
+- [x] Criar formulário com campos essenciais.
+- [x] Adicionar bloco lateral ou complementar com informações de contato.
+- [x] Criar CTA final claro.
+- [x] Preparar feedback visual de envio.
 
 **Campos sugeridos:**
 
@@ -451,11 +451,11 @@ bytepets/
 
 **Itens a executar:**
 
-- Aplicar `required` nos campos essenciais.
-- Aplicar `type="email"` no campo de e-mail.
-- Impedir envio quando houver erro e exibir mensagens amigáveis.
-- Adicionar atributos de acessibilidade (A11y) como `aria-invalid` e `aria-describedby` para leitores de tela.
-- Exibir mensagem de sucesso acessível após submissão válida.
+- [x] Aplicar `required` nos campos essenciais.
+- [x] Aplicar `type="email"` no campo de e-mail.
+- [x] Impedir envio quando houver erro e exibir mensagens amigáveis.
+- [ ] Adicionar atributos de acessibilidade (A11y) como `aria-invalid` e `aria-describedby` para leitores de tela.
+- [x] Exibir mensagem de sucesso acessível após submissão válida.
 
 **Planejamento técnico:**
 
@@ -467,7 +467,7 @@ bytepets/
 
 - Associar todos os campos a labels claras.
 - Marcar campos obrigatórios corretamente.
-- Fornecer mensagens compreensíveis e objetivas para orientação do usuário [page:1].
+- Fornecer mensagens compreensíveis e objetivas para orientação do usuário.
 
 **Requisitos atendidos:**
 
@@ -482,11 +482,11 @@ bytepets/
 
 **Itens a executar:**
 
-- Abrir e fechar menu mobile.
-- Aplicar comportamento acessível do formulário.
-- Implementar micro-interações CSS/JS (ex: botões dinâmicos, cards subindo levemente em hover com `transform: translateY`).
-- Exibir retorno visual dinâmico após envio do formulário.
-- Animar a exibição de indicadores e destacar item ativo no menu durante scroll.
+- [x] Abrir e fechar menu mobile.
+- [x] Aplicar comportamento acessível do formulário.
+- [x] Implementar micro-interações CSS/JS (ex: botões dinâmicos, cards subindo levemente em hover com `transform: translateY`).
+- [x] Exibir retorno visual dinâmico após envio do formulário.
+- [ ] Animar a exibição de indicadores e destacar item ativo no menu durante scroll.
 
 **Estratégia:**
 
@@ -507,11 +507,11 @@ bytepets/
 
 **Itens a executar:**
 
-- Aplicar abordagem mobile-first.
-- Ajustar header para mobile.
-- Reorganizar hero, Sobre, indicadores, serviços e contato em telas menores.
-- Garantir leitura, toque e espaçamento adequados.
-- Testar quebras principais.
+- [x] Aplicar abordagem mobile-first.
+- [x] Ajustar header para mobile.
+- [x] Reorganizar hero, Sobre, indicadores, serviços e contato em telas menores.
+- [x] Garantir leitura, toque e espaçamento adequados.
+- [x] Testar quebras principais.
 
 **Breakpoints sugeridos:**
 
@@ -540,11 +540,11 @@ bytepets/
 
 **Itens a executar:**
 
-- Adicionar nome ou logo da BytePets.
-- Inserir frase institucional curta.
-- Adicionar links rápidos.
-- Inserir informação de contato resumida.
-- Inserir crédito do autor do projeto, se desejado.
+- [x] Adicionar nome ou logo da BytePets.
+- [x] Inserir frase institucional curta.
+- [x] Adicionar links rápidos.
+- [x] Inserir informação de contato resumida.
+- [x] Inserir crédito do autor do projeto, se desejado.
 
 **Valor estratégico:**
 
@@ -563,12 +563,12 @@ bytepets/
 
 **Itens a executar:**
 
-- Definir headline e subtítulo do hero.
-- Definir texto da seção Sobre.
-- Definir descrições curtas dos serviços.
-- Definir lista de diferenciais.
-- Definir labels, placeholders e mensagens do formulário.
-- Definir frases do footer.
+- [x] Definir headline e subtítulo do hero.
+- [x] Definir texto da seção Sobre.
+- [x] Definir descrições curtas dos serviços.
+- [x] Definir lista de diferenciais.
+- [x] Definir labels, placeholders e mensagens do formulário.
+- [x] Definir frases do footer.
 
 **Regras de copy:**
 
@@ -589,11 +589,11 @@ bytepets/
 
 **Itens a executar:**
 
-- Criar ou selecionar logo.
-- Criar ou selecionar imagem principal do hero e possíveis imagens de apoio.
-- Converter imagens fotográficas para formato moderno (WebP) visando extrema otimização e redução drástica do tamanho do `.zip`.
-- Criar ou selecionar ícones dos serviços.
-- Aplicar `loading="lazy"` nas imagens que não estão no hero.
+- [ ] Criar ou selecionar logo.
+- [ ] Criar ou selecionar imagem principal do hero e possíveis imagens de apoio.
+- [ ] Converter imagens fotográficas para formato moderno (WebP) visando extrema otimização e redução drástica do tamanho do `.zip`.
+- [ ] Criar ou selecionar ícones dos serviços.
+- [ ] Aplicar `loading="lazy"` nas imagens que não estão no hero.
 
 **Estratégia:**
 
@@ -613,16 +613,16 @@ bytepets/
 
 **Itens que deverão entrar no README:**
 
-- Identificação do projeto.
-- Identificação do autor.
-- Objetivo do projeto.
-- Conceito da BytePets.
-- Tecnologias utilizadas.
-- Estrutura de arquivos.
-- Etapas de desenvolvimento.
-- Funcionalidades implementadas.
-- Guia de execução local.
-- Checklist de requisitos do desafio.
+- [ ] Identificação do projeto.
+- [ ] Identificação do autor.
+- [ ] Objetivo do projeto.
+- [ ] Conceito da BytePets.
+- [ ] Tecnologias utilizadas.
+- [ ] Estrutura de arquivos.
+- [ ] Etapas de desenvolvimento.
+- [ ] Funcionalidades implementadas.
+- [ ] Guia de execução local.
+- [ ] Checklist de requisitos do desafio.
 
 **Regras obrigatórias da futura documentação:**
 
@@ -642,26 +642,26 @@ bytepets/
 
 **Checklist técnico:**
 
-- HTML carregando sem falhas.
-- CSS aplicado corretamente.
-- JavaScript funcionando sem erros.
-- Imagens aparecendo corretamente.
-- Formulário validando e retornando feedback.
-- Layout responsivo em telas pequenas e grandes.
-- Sem links quebrados.
-- Sem erros visíveis no console.
+- [ ] HTML carregando sem falhas.
+- [ ] CSS aplicado corretamente.
+- [ ] JavaScript funcionando sem erros.
+- [ ] Imagens aparecendo corretamente.
+- [ ] Formulário validando e retornando feedback.
+- [ ] Layout responsivo em telas pequenas e grandes.
+- [ ] Sem links quebrados.
+- [ ] Sem erros visíveis no console.
 
 **Checklist do edital:**
 
-- HTML presente.
-- CSS presente.
-- JavaScript presente.
-- Hero com CTA e posicionamento.
-- Seção Sobre com Flexbox ou Grid.
-- Indicadores presentes.
-- Serviços em cards com recursos visuais.
-- Formulário funcional com validação.
-- Documentação completa.
+- [ ] HTML presente.
+- [ ] CSS presente.
+- [ ] JavaScript presente.
+- [ ] Hero com CTA e posicionamento.
+- [ ] Seção Sobre com Flexbox ou Grid.
+- [ ] Indicadores presentes.
+- [ ] Serviços em cards com recursos visuais.
+- [ ] Formulário funcional com validação.
+- [ ] Documentação completa.
 
 ---
 
@@ -671,11 +671,11 @@ bytepets/
 
 **Itens a executar:**
 
-- Revisar pasta final do projeto.
-- Excluir arquivos desnecessários.
-- Confirmar que tudo funciona localmente abrindo `index.html`.
-- Compactar a pasta em `.zip` ou `.rar`.
-- Verificar se o arquivo final possui até 20 MB.
+- [ ] Revisar pasta final do projeto.
+- [ ] Excluir arquivos desnecessários.
+- [ ] Confirmar que tudo funciona localmente abrindo `index.html`.
+- [ ] Compactar a pasta em `.zip` ou `.rar`.
+- [ ] Verificar se o arquivo final possui até 20 MB.
 
 **Conteúdo obrigatório do pacote:**
 
