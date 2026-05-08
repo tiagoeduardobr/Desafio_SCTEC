@@ -500,16 +500,10 @@ textarea {
 }
 
 .service-icon {
-  width: 54px;
-  aspect-ratio: 1;
-  display: grid;
-  place-items: center;
-  border-radius: 16px;
+  width: 64px;
+  height: 64px;
   margin-bottom: 18px;
-  background: rgba(0,212,255,.12);
-  color: var(--primary);
-  font-size: 1.3rem;
-  border: 1px solid rgba(0,212,255,.2);
+  object-fit: contain;
 }
 
 .service-card h3,
