@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="t d">
   <title id="t">Banho e tosa</title>
-  <desc id="d">Ícone de banho e tosa cyberpunk.</desc>
+  <desc id="desc">Ícone de banho e tosa com banheira, chuveiro e bolhas em estilo cyberpunk.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#08111f"/>
@@ -19,22 +19,36 @@
       <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
+
   <rect width="128" height="128" rx="28" fill="url(#bg)"/>
   <rect width="128" height="128" rx="28" fill="none" stroke="url(#nP)" stroke-width="1" opacity="0.3"/>
-  <circle cx="64" cy="64" r="40" fill="none" stroke="rgba(0,212,255,0.1)" stroke-width="2" stroke-dasharray="4 6"/>
+  <circle cx="64" cy="64" r="40" fill="none" stroke="rgba(0,212,255,0.15)" stroke-width="2" stroke-dasharray="4 6"/>
+
+  <!-- Shower Pipe -->
+  <path d="M 94 80 L 94 30 C 94 20 84 20 84 20 L 70 20 L 70 26" fill="none" stroke="url(#nC)" stroke-width="4" stroke-linecap="round" filter="url(#nG)"/>
   
-  <!-- Cyber Bubbles -->
-  <g fill="none" stroke="url(#nC)" stroke-width="4" filter="url(#nG)">
-    <circle cx="50" cy="50" r="10"/>
-    <circle cx="80" cy="40" r="6"/>
-    <circle cx="70" cy="80" r="14"/>
+  <!-- Shower Head -->
+  <path d="M 65 26 L 75 26 L 80 34 L 60 34 Z" fill="url(#nC)" filter="url(#nG)"/>
+
+  <!-- Water Drops -->
+  <g stroke="url(#nC)" stroke-width="3" stroke-linecap="round" filter="url(#nG)">
+    <path d="M 62 42 L 62 48 M 62 56 L 62 62" />
+    <path d="M 70 46 L 70 52 M 70 60 L 70 66" />
+    <path d="M 78 42 L 78 48 M 78 56 L 78 62" />
   </g>
-  <g fill="url(#nP)" filter="url(#nG)">
-    <circle cx="50" cy="50" r="2"/>
-    <circle cx="70" cy="80" r="3"/>
-  </g>
+
+  <!-- Bathtub -->
+  <path d="M 30 80 L 38 100 L 90 100 L 98 80 Z" fill="#0f1b2e" stroke="url(#nP)" stroke-width="4" stroke-linejoin="round" filter="url(#nG)"/>
+  <path d="M 24 80 L 104 80" stroke="url(#nP)" stroke-width="4" stroke-linecap="round" filter="url(#nG)"/>
   
-  <!-- Shower Head / Tech Node -->
-  <path d="M 30 100 L 45 85 L 60 100" stroke="url(#nP)" stroke-width="4" fill="none" stroke-linecap="round" filter="url(#nG)"/>
-  <path d="M 45 85 L 45 65" stroke="url(#nP)" stroke-width="4" stroke-linecap="round" filter="url(#nG)"/>
+  <!-- Bathtub feet -->
+  <path d="M 42 100 L 38 106 M 86 100 L 90 106" stroke="url(#nP)" stroke-width="4" stroke-linecap="round" filter="url(#nG)"/>
+
+  <!-- Bubbles -->
+  <g fill="none" stroke="url(#nP)" stroke-width="3" filter="url(#nG)">
+    <circle cx="44" cy="72" r="8"/>
+    <circle cx="60" cy="76" r="6"/>
+    <circle cx="72" cy="74" r="10"/>
+    <circle cx="50" cy="62" r="4"/>
+  </g>
 </svg>
