@@ -20,6 +20,7 @@ Bem-vindo ao repositório do **BytePets**, uma landing page premium desenvolvida
 ## 🎯 Objetivo
 
 Criar uma experiência imersiva e responsiva para a marca "BytePets". O foco principal do desenvolvimento foi alcançar a excelência nos critérios de avaliação técnica:
+
 - **Desempenho Extremo:** Nenhuma imagem fotográfica pesada foi utilizada. Todos os assets (Logo, Hero, Ícones) são 100% vetoriais (SVG) renderizados via código com filtros nativos (`feGaussianBlur`), garantindo peso praticamente nulo e carregamento instantâneo.
 - **Acessibilidade (A11y):** Uso de HTML5 semântico (tags `<article>`, `<section>`, `<nav>`), atributos ARIA dinâmicos no formulário de contato (`aria-invalid`, `aria-describedby`, `aria-live`) e controle semântico do menu mobile (`aria-expanded`).
 - **SEO Técnico:** Estrutura de cabeçalho em árvore impecável (H1 a H3), Meta Tags Open Graph (OG) injetadas para compartilhamento rico, e atributo `loading="lazy"` nas imagens secundárias.

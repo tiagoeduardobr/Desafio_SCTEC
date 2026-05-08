@@ -24,7 +24,7 @@ Este documento define as diretrizes de desenvolvimento para o projeto BytePets, 
 
 ## 4. Formatação de Documentação (Markdown e Dicionário)
 
-- **Espaçamento de Títulos e Listas:** Sempre mantenha uma linha em branco antes e depois de títulos (Headings) e listas, evitando avisos de lint (ex: MD022, MD032).
+- **Espaçamento de Títulos e Listas (MD032):** Sempre mantenha uma linha em branco antes e depois de títulos (Headings) e também **antes e depois de listas**, garantindo a separação de parágrafos de texto para evitar avisos do linter (ex: MD022, MD032).
 - **Sem Pontuação em Títulos:** Não utilize pontuação final (como ponto final `.`) em títulos/headings para evitar o erro MD026 do linter.
 - **Tabelas:** Mantenha espaçamento interno adequado nas declarações de colunas de tabelas (ex: `| --- | --- |`) para evitar avisos de linting (ex: MD060).
 - **Dicionário (CSpell):** Qualquer termo técnico, nome próprio ou jargão reportado como "Unknown word" pela IDE deve ser imediatamente adicionado à lista de palavras (`words`) no arquivo `cspell.json`.
