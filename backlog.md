@@ -590,7 +590,7 @@ bytepets/
 **Itens a executar:**
 
 - [x] Criar ou selecionar logo.
-- [ ] Criar ou selecionar imagem principal do hero e possíveis imagens de apoio.
+- [x] Criar ou selecionar imagem principal do hero e possíveis imagens de apoio.
 - [ ] Converter imagens fotográficas para formato moderno (WebP) visando extrema otimização e redução drástica do tamanho do `.zip`.
 - [x] Criar ou selecionar ícones dos serviços.
 - [ ] Aplicar `loading="lazy"` nas imagens que não estão no hero.
