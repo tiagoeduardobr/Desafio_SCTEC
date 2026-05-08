@@ -445,7 +445,7 @@ bytepets/
 
 ---
 
-### TODO 12 — Implementar validação do formulário
+### [x] **TODO 12** — Implementar validação do formulário.
 
 **Objetivo:** Atender ao requisito obrigatório de validação básica dos campos.
 
@@ -454,7 +454,7 @@ bytepets/
 - [x] Aplicar `required` nos campos essenciais.
 - [x] Aplicar `type="email"` no campo de e-mail.
 - [x] Impedir envio quando houver erro e exibir mensagens amigáveis.
-- [ ] Adicionar atributos de acessibilidade (A11y) como `aria-invalid` e `aria-describedby` para leitores de tela.
+- [x] Adicionar atributos de acessibilidade (A11y) como `aria-invalid` e `aria-describedby` para leitores de tela.
 - [x] Exibir mensagem de sucesso acessível após submissão válida.
 
 **Planejamento técnico:**
