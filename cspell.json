@@ -1,0 +1,30 @@
+{
+  "version": "0.2",
+  "language": "en,pt,pt-br",
+  "dictionaries": [
+    "pt_BR",
+    "softwareTerms",
+    "html",
+    "css",
+    "fonts"
+  ],
+  "words": [
+    "BytePets",
+    "SCTEC",
+    "SCTI",
+    "SENAI",
+    "tech",
+    "nerd",
+    "geek",
+    "subheadline",
+    "glassmorphism",
+    "docstrings",
+    "microinterações"
+  ],
+  "ignorePaths": [
+    "node_modules/**",
+    ".git/**",
+    "assets/**",
+    "*.zip"
+  ]
+}
