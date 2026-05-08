@@ -22,7 +22,9 @@ Este documento define as diretrizes de desenvolvimento para o projeto BytePets, 
 - Foco em **Performance**: Otimização máxima de assets (imagens em WebP, carregamento `lazy`) para manter o `.zip` final abaixo de 20MB.
 - Foco em **Design Premium**: Identidade visual "Tech + Pet + Nerd", utilizando micro-interações CSS/JS e consistência visual para garantir a nota 100 no critério de Desenvolvimento.
 
-## 4. Formatação de Documentação (Markdown)
+## 4. Formatação de Documentação (Markdown e Dicionário)
 
 - **Espaçamento de Títulos e Listas:** Sempre mantenha uma linha em branco antes e depois de títulos (Headings) e listas, evitando avisos de lint (ex: MD022, MD032).
+- **Sem Pontuação em Títulos:** Não utilize pontuação final (como ponto final `.`) em títulos/headings para evitar o erro MD026 do linter.
 - **Tabelas:** Mantenha espaçamento interno adequado nas declarações de colunas de tabelas (ex: `| --- | --- |`) para evitar avisos de linting (ex: MD060).
+- **Dicionário (CSpell):** Qualquer termo técnico, nome próprio ou jargão reportado como "Unknown word" pela IDE deve ser imediatamente adicionado à lista de palavras (`words`) no arquivo `cspell.json`.

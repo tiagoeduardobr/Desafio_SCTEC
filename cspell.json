@@ -21,7 +21,12 @@
     "docstrings",
     "microinterações",
     "textareas",
-    "servico"
+    "servico",
+    "Fontshare",
+    "bytepets",
+    "Oxanium",
+    "wordmark",
+    "colapsável"
   ],
   "ignorePaths": [
     "node_modules/**",

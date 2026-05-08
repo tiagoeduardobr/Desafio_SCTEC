@@ -445,7 +445,7 @@ bytepets/
 
 ---
 
-### [x] **TODO 12** — Implementar validação do formulário.
+### [x] **TODO 12** — Implementar validação do formulário
 
 **Objetivo:** Atender ao requisito obrigatório de validação básica dos campos.
 
