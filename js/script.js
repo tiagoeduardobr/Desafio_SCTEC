@@ -110,3 +110,40 @@ if (form) {
     form.reset();
   });
 }
+
+// ==========================================
+// Scroll Spy e Animações de Scroll
+// ==========================================
+
+const sectionObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      const id = entry.target.getAttribute('id');
+      if (id) {
+        document.querySelectorAll('.site-nav a').forEach((link) => {
+          link.classList.remove('active');
+          if (link.getAttribute('href') === `#${id}`) {
+            link.classList.add('active');
+          }
+        });
+      }
+    }
+  });
+}, { threshold: 0.3 });
+
+document.querySelectorAll('section[id], header[id]').forEach((section) => {
+  sectionObserver.observe(section);
+});
+
+const metricsObserver = new IntersectionObserver((entries, observer) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.1 });
+
+document.querySelectorAll('.metric-card').forEach((card) => {
+  metricsObserver.observe(card);
+});
